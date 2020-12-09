@@ -1,0 +1,29 @@
+html, body{
+    background-color:bisque;
+    margin:0;
+    height:100%;
+    font-size:18px;
+}
+
+h1{
+    background-color:aquamarine;
+    color:white;
+    padding:16px;
+    text-align:center;
+    text-decoration:line-through;
+    font-weight:200;
+    font-size:2rem;
+    font-family:Verdana, Calibri, "Trebuchet MS", Tahoma, sans-serif;
+    width:30%;
+    margin:35px auto;
+    border:6px solid black;
+    border-radius:1.8rem;
+    transition:all 3s 1s ease-in-out;
+}
+
+h1:hover{
+    background-color:salmon;
+    color:black;
+    text-decoration:underline;
+    transform: rotateX(35deg) rotateY(40deg) translateX(350px) translateY(400px) scale(1.4);
+}
