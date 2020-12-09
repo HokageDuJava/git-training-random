@@ -12,3 +12,5 @@ setTimeout(
         let h1 = document.getElementsByTagName("h1")[0];
         h1.textContent = `Hello ${username.toUpperCase()}!`;
     }, 3000);
+
+    alert("Pipi, caca, prout !");
